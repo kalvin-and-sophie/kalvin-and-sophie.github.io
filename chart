@@ -1,0 +1,26 @@
+{
+	nodes: [
+		{
+			id: 1,
+			name: 'name1',
+			type: 'start/end/task/distion',
+			weight: 10
+		}, {
+			id: 2,
+			name: 'name2'
+		}, {
+			id: 3,
+			name: 'name3'
+		}
+	],
+	links: [
+		{
+			source: 1,
+			target: 2,
+			weight: 20
+		}, {
+			source: 2,
+			target: 3
+		}
+	]
+}
