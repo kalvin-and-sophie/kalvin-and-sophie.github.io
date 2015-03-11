@@ -1,0 +1,11 @@
+data:
+  mainpage:
+    huburl: http://125.33.243.100:4444/wd/hub
+    url: http://localhost:3000
+    title: TCM
+  logindata:
+    wrong:
+      username: a@a.com
+      password: 111112
+      message: 您输入的帐号或密码有误
+          
